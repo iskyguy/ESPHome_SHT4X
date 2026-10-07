@@ -1698,6 +1698,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 102.87) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260959f4-8a90-4e25-8045-203a5409f8d6")
+	)
+	(wire
+		(pts
 			(xy 96.52 95.25) (xy 96.52 100.33)
 		)
 		(stroke
@@ -1735,6 +1745,16 @@
 			(type default)
 		)
 		(uuid "2d3cc1a4-9e84-4739-83ad-f4dc7d422535")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a9e01f-e209-4734-a00c-2550cdfd8cdf")
 	)
 	(wire
 		(pts
@@ -2068,16 +2088,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 99.06) (xy 203.2 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9617f53-d792-4aec-b1d2-50b8e2698e79")
-	)
-	(wire
-		(pts
 			(xy 166.37 77.47) (xy 177.8 77.47)
 		)
 		(stroke
@@ -2158,16 +2168,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 99.06) (xy 203.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd42dcca-0edc-42d5-a5f1-a2cdfe9ccd2d")
-	)
-	(wire
-		(pts
 			(xy 92.71 63.5) (xy 87.63 63.5)
 		)
 		(stroke
@@ -2205,6 +2205,16 @@
 			(type default)
 		)
 		(uuid "e7b65a7c-a487-4909-ab3e-2c29872d7950")
+	)
+	(wire
+		(pts
+			(xy 198.12 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c13b65-7dc6-45f9-a23a-ad3dabf279bd")
 	)
 	(wire
 		(pts
@@ -2482,30 +2492,6 @@
 			)
 		)
 	)
-	(global_label "*CE"
-		(shape input)
-		(at 167.64 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b80240f-3499-4b4f-be3e-354bd5aaf117")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0118 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SW"
 		(shape input)
 		(at 166.37 82.55 0)
@@ -2626,6 +2612,30 @@
 			)
 		)
 	)
+	(global_label "IO18"
+		(shape input)
+		(at 198.12 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91d65768-d5a0-493a-a899-3c97caccfafd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.7805 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BTST"
 		(shape input)
 		(at 149.86 49.53 270)
@@ -2698,6 +2708,30 @@
 			)
 		)
 	)
+	(global_label "IO18"
+		(shape input)
+		(at 167.64 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a29d8ab0-b56d-4389-8d82-acbd1104490a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.9795 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "*QON"
 		(shape input)
 		(at 99.06 92.71 180)
@@ -2711,30 +2745,6 @@
 		(uuid "c527675e-cc78-4d41-96fe-a4f6c77064d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.1157 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "*INT"
-		(shape input)
-		(at 195.58 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc7c2c57-7123-4b41-968e-2118449299b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.7243 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 156.21 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3197,7 +3207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SW_TS02-66-43-BK-100-SCR-D"
 			(at 58.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3404,6 +3414,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 203.2 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "948bfe01-9fcd-4c2d-90de-de79e3af432e")
+		(property "Reference" "#PWR031"
+			(at 203.2 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 203.2 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 203.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4e60c8d-24d3-4ee7-9d5a-1c806feed091")
+		)
+		(instances
+			(project "ESPHome_SHT4X"
+				(path "/826ebba5-7c3e-487c-8b02-8a41d58d0574"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 161.29 102.87 0)
 		(unit 1)
@@ -3437,7 +3525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 161.29 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3595,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3644,8 +3732,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1787b71-609d-4129-801e-5949da17d0e7")
+		(property "Reference" "R14"
+			(at 205.74 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 205.74 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "96d16857-a28e-458e-bbe0-57dcdccd4b75")
+		)
+		(pin "1"
+			(uuid "09ff92b3-0a4e-423c-8ec0-99b0b8bedeb5")
+		)
+		(instances
+			(project "ESPHome_SHT4X"
+				(path "/826ebba5-7c3e-487c-8b02-8a41d58d0574"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 161.29 113.03 90)
+		(at 161.29 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3656,28 +3826,28 @@
 		(fields_autoplaced yes)
 		(uuid "b3ce31fd-65bc-4067-b782-2b4fe134e03a")
 		(property "Reference" "D1"
-			(at 165.1 113.3474 90)
+			(at 163.83 110.1724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED"
-			(at 165.1 115.8874 90)
+			(at 163.83 112.7124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 161.29 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3770,7 +3940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3820,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 92.71 73.66 270)
+		(at 92.71 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3831,28 +4001,28 @@
 		(fields_autoplaced yes)
 		(uuid "ca2f7ab8-6f84-4dc2-b314-392d19a4bdc9")
 		(property "Reference" "D2"
-			(at 95.25 70.8024 90)
+			(at 96.52 73.9774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 95.25 73.3424 90)
+			(at 96.52 76.5174 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_NKK_GW12LJP"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3906,84 +4076,6 @@
 			(project "ESPHome_SHT4X"
 				(path "/826ebba5-7c3e-487c-8b02-8a41d58d0574"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 203.2 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce588214-4a1a-4088-a446-3ce4f761cb20")
-		(property "Reference" "#PWR032"
-			(at 203.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 203.2 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 203.2 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62328273-0bce-492a-be9c-b87694fa881b")
-		)
-		(instances
-			(project "ESPHome_SHT4X"
-				(path "/826ebba5-7c3e-487c-8b02-8a41d58d0574"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4101,7 +4193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4183,7 +4275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 100.33 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4345,7 +4437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.6 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 163.83 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4507,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 163.83 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4587,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WQFN-HR18__RYK_TEX"
+		(property "Footprint" "Library:WQFN-HR18__RYK_TEX"
 			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
