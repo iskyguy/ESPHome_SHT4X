@@ -3,4 +3,5 @@
 	(lib (name "Library") (type "KiCad") (uri "/home/iskyguy/Nextcloud/Personal/KiCAD/ESPHome_SHT4X/libraries/footprints/Library.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "/home/iskyguy/Nextcloud/Personal/KiCAD/ESPHome_SHT4X/libraries/footprints.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "/home/iskyguy/Nextcloud/Personal/KiCAD/ESPHome_SHT4X/libraries/footprints/Library.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "B:/Nextcloud/Personal/KiCAD/ESPHome_SHT4X/libraries/footprints/Library.pretty") (options "") (descr ""))
 )
