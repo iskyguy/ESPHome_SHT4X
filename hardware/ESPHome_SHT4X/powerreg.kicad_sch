@@ -4679,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:WQFN-HR18__RYK_TEX"
+		(property "Footprint" "ESPhome:WQFN-HR18__RYK_TEX"
 			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
