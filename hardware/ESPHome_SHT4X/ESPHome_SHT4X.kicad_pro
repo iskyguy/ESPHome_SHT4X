@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.1,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.025,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
-          "min_thickness": 0.025,
+          "min_thickness": 0.1,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -148,7 +148,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -215,7 +215,10 @@
       "track_widths": [
         0.0,
         0.1,
-        0.2
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -491,6 +494,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -774,7 +778,7 @@
         "uuid": "637dde4e-0ddc-4529-89d9-8ce505635a5f"
       }
     ],
-    "used_designators": "D3,#PWR4,#PWR36,R17",
+    "used_designators": "#PWR4,#PWR36,D3,R17",
     "variants": []
   },
   "sheets": [

@@ -2531,7 +2531,7 @@
 			)
 		)
 	)
-	(global_label "IO19"
+	(global_label "IO21"
 		(shape input)
 		(at 106.68 129.54 0)
 		(fields_autoplaced yes)
