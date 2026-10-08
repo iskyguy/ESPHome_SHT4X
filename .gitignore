@@ -1,0 +1,35 @@
+# Restricted standalone component download archives
+/assets/downloads/SHT40_AD1F_R2.zip
+/assets/downloads/ESP32_C6_WROOM_1_N8.zip
+/assets/downloads/UJ20_C_H_G_SMT_2A_P16_TR.zip
+
+# Restricted unpacked models; retain License.txt and other notices
+/assets/downloads/SHT40_AD1F_R2/SHT40-AD1F-R2.kicad_sym
+/assets/downloads/SHT40_AD1F_R2/SHT4X.kicad_mod
+/assets/downloads/SHT40_AD1F_R2/SHT40-AD1F-R2.step
+/assets/downloads/ESP32_C6_WROOM_1_N8/ESP32-C6-WROOM-1-N8.kicad_sym
+/assets/downloads/ESP32_C6_WROOM_1_N8/XCVR_ESP32-C6-WROOM-1-N8.kicad_mod
+/assets/downloads/ESP32_C6_WROOM_1_N8/ESP32-C6-WROOM-1-N8.step
+
+# Restricted standalone symbol libraries, including mixed copies
+/libraries/symbols/SHT40-AD1F-R2.kicad_sym
+/libraries/symbols/ESP32-C6-WROOM-1-N8.kicad_sym
+/libraries/symbols/UJ20-C-H-G-SMT-2A-P16-TR.kicad_sym
+/libraries/symbols/local.kicad_sym
+/libraries/symbols/local.bak
+
+# Restricted standalone 3D models
+/libraries/models/SHT40-AD1F-R2.step
+/libraries/models/ESP32-C6-WROOM-1-N8.step
+/libraries/models/UJ20-C-H-G-SMT-2A-P16-TR.step
+
+# Restricted standalone footprints and project-local copies
+/libraries/footprints/Library.pretty/SHT4X.kicad_mod
+/libraries/footprints/Library.pretty/XCVR_ESP32-C6-WROOM-1-N8.kicad_mod
+/libraries/footprints/Library.pretty/SAMESKY_UJ20-C-H-G-SMT-2A-P16-TR.kicad_mod
+/hardware/ESPHome_SHT4X/ESPhome.pretty/SHT4X.kicad_mod
+/hardware/ESPHome_SHT4X/ESPhome.pretty/XCVR_ESP32-C6-WROOM-1-N8.kicad_mod
+/hardware/ESPHome_SHT4X/ESPhome.pretty/SAMESKY_UJ20-C-H-G-SMT-2A-P16-TR.kicad_mod
+
+# Future KiCad backup archives may bundle restricted local footprints
+/hardware/ESPHome_SHT4X/ESPHome_SHT4X-backups/*.zip
