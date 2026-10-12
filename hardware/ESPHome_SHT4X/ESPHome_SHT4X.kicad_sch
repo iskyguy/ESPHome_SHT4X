@@ -302,170 +302,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "local:ESP32-C6-WROOM-1-N8"
 			(pin_names
 				(offset 1.016)
@@ -1260,6 +1096,373 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "local:TS02-66-43-BK-100-SCR-D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -7.62 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TS02-66-43-BK-100-SCR-D"
+				(at -7.62 -8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TS02-66-43-BK-100-SCR-D:SW_TS02-66-43-BK-100-SCR-D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "2223-TS02-66-43-BK-100-SCR-D-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TS02-66-43-BK-100-SCR-D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TS02-66-43-BK-100-SCR-D_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.905)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -2.2225) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1546,12 +1749,6 @@
 		(uuid "1ed4b4e0-fe0d-4db4-a246-7e4cfbbcc3c9")
 	)
 	(junction
-		(at 78.74 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "250b847e-9c9f-472c-8b03-7c4d6f32c915")
-	)
-	(junction
 		(at 109.22 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,19 +1779,25 @@
 		(uuid "7ea15234-584c-45c0-97c5-4300b0c43d02")
 	)
 	(junction
+		(at 63.5 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f5fb55-5976-499d-9d77-6941687467dc")
+	)
+	(junction
 		(at 59.69 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a04b7a4-68ab-4a80-8a00-e45a82d11fe3")
 	)
 	(junction
-		(at 60.96 58.42)
+		(at 63.5 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "973b0bf0-ccd1-4c72-91cf-47aa9f1f232b")
 	)
 	(junction
-		(at 100.33 49.53)
+		(at 102.87 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5f1968-6185-4718-ab7f-dd2546ecca88")
@@ -1624,16 +1827,40 @@
 		(uuid "a87dfb05-367e-495b-953c-7b2e443e2bb7")
 	)
 	(junction
+		(at 81.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa2fe1ab-4cbb-4b5b-9c46-2e83ecc8a77d")
+	)
+	(junction
 		(at 109.22 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f153b5-0f46-4b5c-a028-4cb6bd498919")
 	)
 	(junction
+		(at 20.32 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc43a596-d100-47c9-a631-571ea557bce6")
+	)
+	(junction
+		(at 91.44 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfce7477-a6f2-461a-b970-c6b00e3f9ea9")
+	)
+	(junction
 		(at 167.64 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed94d041-7888-4370-89e3-7c1084a6424f")
+	)
+	(junction
+		(at 41.91 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb7c0d95-8973-484e-8e56-b2352cfe11ad")
 	)
 	(wire
 		(pts
@@ -1644,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "0197546a-bda3-4000-a176-09f7024e1871")
+	)
+	(wire
+		(pts
+			(xy 91.44 59.69) (xy 91.44 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c223b9-8c87-4699-8b6d-6a8a5f281e98")
 	)
 	(wire
 		(pts
@@ -1677,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 78.74 58.42)
+			(xy 76.2 68.58) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1717,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 60.96 60.96)
+			(xy 63.5 59.69) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1737,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 139.7) (xy 41.91 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ac5423-56ec-4640-abdb-94b12c797881")
+	)
+	(wire
+		(pts
 			(xy 156.21 57.15) (xy 156.21 58.42)
 		)
 		(stroke
@@ -1744,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "2461d543-cf38-4e48-8aab-5dfa56401037")
+	)
+	(wire
+		(pts
+			(xy 41.91 139.7) (xy 49.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2505dac1-8da2-4ec4-a5a4-d547f5b65a75")
 	)
 	(wire
 		(pts
@@ -1787,6 +2044,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 139.7) (xy 20.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f68fdb4-1f9c-414e-a899-5d59bd9485a6")
+	)
+	(wire
+		(pts
 			(xy 134.62 92.71) (xy 134.62 95.25)
 		)
 		(stroke
@@ -1794,16 +2061,6 @@
 			(type default)
 		)
 		(uuid "30fbbd11-b53f-4fd3-9833-da2e725dc0fb")
-	)
-	(wire
-		(pts
-			(xy 45.72 139.7) (xy 49.53 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4a90dd-8787-4493-9970-0e1c3d72a85b")
 	)
 	(wire
 		(pts
@@ -1837,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 59.69) (xy 100.33 62.23)
+			(xy 102.87 69.85) (xy 102.87 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +2104,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 60.96 49.53)
+			(xy 91.44 59.69) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c58a891-601e-4e6d-b73d-6039b8ee5f16")
+	)
+	(wire
+		(pts
+			(xy 68.58 59.69) (xy 63.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +2144,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 34.29) (xy 100.33 39.37)
+			(xy 20.32 177.8) (xy 20.32 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f1df7c-e1aa-4e57-b95a-279e488e3f1b")
+	)
+	(wire
+		(pts
+			(xy 102.87 44.45) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1917,6 +2194,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 139.7) (xy 34.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604009b8-28d8-46dc-99d9-79aa646ccc6e")
+	)
+	(wire
+		(pts
 			(xy 40.64 129.54) (xy 40.64 127)
 		)
 		(stroke
@@ -1934,6 +2221,16 @@
 			(type default)
 		)
 		(uuid "6b6d389f-5fa1-48cc-975b-cf2a8ad67dbb")
+	)
+	(wire
+		(pts
+			(xy 78.74 29.21) (xy 78.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4d246a-b130-494a-a399-4e48bc627d48")
 	)
 	(wire
 		(pts
@@ -1967,16 +2264,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 78.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78c8407d-5705-428f-a9fb-d85c8ce32ed8")
-	)
-	(wire
-		(pts
 			(xy 45.72 88.9) (xy 45.72 93.98)
 		)
 		(stroke
@@ -1987,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 44.45) (xy 100.33 49.53)
+			(xy 102.87 54.61) (xy 102.87 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2027,13 +2314,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 60.96 58.42)
+			(xy 34.29 139.7) (xy 41.91 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c987f50-c812-4d8e-9ccc-f284f795fbdb")
+		(uuid "8df8ec61-b445-4efc-8118-c279a74d63b9")
 	)
 	(wire
 		(pts
@@ -2107,6 +2394,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 29.21) (xy 78.74 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6279e1-0355-4339-9bce-17a5c1e1aff5")
+	)
+	(wire
+		(pts
+			(xy 63.5 59.69) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7166b3-a896-4131-8c8f-61915864a561")
+	)
+	(wire
+		(pts
 			(xy 106.68 160.02) (xy 109.22 160.02)
 		)
 		(stroke
@@ -2117,7 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 58.42) (xy 68.58 58.42)
+			(xy 63.5 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2147,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 173.99) (xy 24.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a128a2b3-6a61-4e8a-a0ad-6b40b970bd4f")
+	)
+	(wire
+		(pts
 			(xy 177.8 46.99) (xy 167.64 46.99)
 		)
 		(stroke
@@ -2167,7 +2484,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 139.7) (xy 29.21 140.97)
+			(xy 24.13 148.59) (xy 24.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcd1e30-e212-413d-8787-406c0e56b5c6")
+	)
+	(wire
+		(pts
+			(xy 17.78 139.7) (xy 17.78 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 107.95 49.53)
+			(xy 102.87 59.69) (xy 110.49 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2194,6 +2521,16 @@
 			(type default)
 		)
 		(uuid "b4e584ec-508b-4d20-9baa-d05bc7485dbd")
+	)
+	(wire
+		(pts
+			(xy 68.58 29.21) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5125339-1640-4995-a5e0-1d116f059640")
 	)
 	(wire
 		(pts
@@ -2214,6 +2551,16 @@
 			(type default)
 		)
 		(uuid "b7f09c73-4034-4f32-a5bb-87082a1636e0")
+	)
+	(wire
+		(pts
+			(xy 20.32 139.7) (xy 17.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f7ce56-c581-4661-9fb7-dfac9a2ac379")
 	)
 	(wire
 		(pts
@@ -2297,6 +2644,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 177.8) (xy 20.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09d8487-24db-47d4-826a-3a7bf173bf8b")
+	)
+	(wire
+		(pts
 			(xy 109.22 162.56) (xy 109.22 165.1)
 		)
 		(stroke
@@ -2317,7 +2674,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 100.33 49.53)
+			(xy 41.91 176.53) (xy 34.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85a86ae-6312-473c-9b7d-2aac60bd32a3")
+	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 100.33 54.61)
+			(xy 102.87 59.69) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 78.74 58.42)
+			(xy 81.28 59.69) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2417,6 +2784,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 176.53) (xy 34.29 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f3f5fe-3bd7-4b2d-8f88-4ceb02d55531")
+	)
+	(wire
+		(pts
+			(xy 63.5 29.21) (xy 68.58 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f652d4e6-d9c5-49e9-ab77-c7d2f1b183eb")
+	)
+	(wire
+		(pts
 			(xy 106.68 111.76) (xy 119.38 111.76)
 		)
 		(stroke
@@ -2427,13 +2814,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 139.7) (xy 29.21 139.7)
+			(xy 81.28 59.69) (xy 91.44 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fde9a289-842c-4bbf-90b3-44f2c35fe39b")
+		(uuid "fe600282-11f8-438c-82db-af8cea81f236")
 	)
 	(global_label "IO22"
 		(shape input)
@@ -2797,7 +3184,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 107.95 49.53 0)
+		(at 110.49 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2807,7 +3194,7 @@
 		)
 		(uuid "873678f0-4361-4929-80eb-5ee2ab6f9f89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.4147 49.53 0)
+			(at 115.9547 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3275,7 +3662,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 60.96 0)
+		(at 63.5 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3286,7 +3673,7 @@
 		(fields_autoplaced yes)
 		(uuid "2626be26-7539-4f36-b916-ba08476691c6")
 		(property "Reference" "#PWR023"
-			(at 60.96 67.31 0)
+			(at 63.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +3684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 66.04 0)
+			(at 63.5 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3307,7 +3694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 60.96 0)
+			(at 63.5 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 60.96 0)
+			(at 63.5 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3329,7 +3716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 60.96 0)
+			(at 63.5 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,166 +4055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 40.64 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fcea2fe-0e0a-4b71-bf0d-251abcaa30b8")
-		(property "Reference" "SW3"
-			(at 40.64 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 40.64 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SW_TS02-66-43-BK-100-SCR-D"
-			(at 40.64 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ed28cc0f-1240-403a-9f1b-15292780faef")
-		)
-		(pin "1"
-			(uuid "66424972-46c3-4337-9b5e-801c4c4c4219")
-		)
-		(instances
-			(project "ESPHome_SHT4X"
-				(path "/1788c1f0-51a1-4bbb-9bc1-fa75d9c8d3aa"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 71.12 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36e57f3f-1f16-4496-995d-803f421b8a24")
-		(property "Reference" "SW2"
-			(at 71.12 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 71.12 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:SW_TS02-66-43-BK-100-SCR-D"
-			(at 71.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 71.12 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f4b92a7-5b32-4dba-8c95-22061dc63cca")
-		)
-		(pin "1"
-			(uuid "5282f8cc-3d2d-4c6e-8c8f-fd9ae39b96ba")
-		)
-		(instances
-			(project "ESPHome_SHT4X"
-				(path "/1788c1f0-51a1-4bbb-9bc1-fa75d9c8d3aa"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 121.92 109.22 90)
 		(unit 1)
@@ -3908,7 +4135,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 100.33 34.29 0)
+		(at 102.87 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3919,7 +4146,7 @@
 		(fields_autoplaced yes)
 		(uuid "393eb418-9fbd-474c-90fd-1ea2f9f34f8e")
 		(property "Reference" "#PWR022"
-			(at 100.33 38.1 0)
+			(at 102.87 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,7 +4157,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 100.33 29.21 0)
+			(at 102.87 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3940,7 +4167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 34.29 0)
+			(at 102.87 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 34.29 0)
+			(at 102.87 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 100.33 34.29 0)
+			(at 102.87 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4228,6 +4455,205 @@
 		)
 	)
 	(symbol
+		(lib_id "local:TS02-66-43-BK-100-SCR-D")
+		(at 29.21 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717ad6b7-ecda-4e17-b28c-f12b60a398d7")
+		(property "Reference" "S2"
+			(at 38.1 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS02-66-43-BK-100-SCR-D"
+			(at 38.1 162.5599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SW_TS02-66-43-BK-100-SCR-D"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "2223-TS02-66-43-BK-100-SCR-D-ND"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=snap"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=eda"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TS02-66-43-BK-100-SCR-D"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 29.21 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "202852a9-1644-4680-8cd4-3def28bbc991")
+		)
+		(pin "4"
+			(uuid "f2447770-80d5-4429-bf4e-d3e3f1e69937")
+		)
+		(pin "1"
+			(uuid "36ed502f-06f5-4761-a00c-3372b12b2eab")
+		)
+		(pin "2"
+			(uuid "81a65800-68e5-4ee0-907b-801457ef31b6")
+		)
+		(instances
+			(project "ESPHome_SHT4X"
+				(path "/1788c1f0-51a1-4bbb-9bc1-fa75d9c8d3aa"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 167.64 0)
 		(unit 1)
@@ -4307,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 100.33 57.15 0)
+		(at 102.87 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4318,7 +4744,7 @@
 		(fields_autoplaced yes)
 		(uuid "7accdf77-ff2a-4589-bf4e-e9f8e7eec6b2")
 		(property "Reference" "C11"
-			(at 102.87 56.0069 0)
+			(at 105.41 66.1669 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4329,7 +4755,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 102.87 58.5469 0)
+			(at 105.41 68.7069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4340,7 +4766,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 100.33 57.15 0)
+			(at 102.87 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 57.15 0)
+			(at 102.87 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4788,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 100.33 57.15 0)
+			(at 102.87 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,6 +4808,205 @@
 			(project "ESPHome_SHT4X"
 				(path "/1788c1f0-51a1-4bbb-9bc1-fa75d9c8d3aa"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "local:TS02-66-43-BK-100-SCR-D")
+		(at 73.66 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8085ebb8-7389-4745-ad43-2e952a8afd63")
+		(property "Reference" "S1"
+			(at 82.55 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS02-66-43-BK-100-SCR-D"
+			(at 82.55 48.2599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:SW_TS02-66-43-BK-100-SCR-D"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6 x 6 mm, 4.3 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "2223-TS02-66-43-BK-100-SCR-D-ND"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=snap"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-43-BK-100-SCR-D/Same+Sky/view-part/?ref=eda"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TS02-66-43-BK-100-SCR-D"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "92cce3b3-f3b7-4cdf-88e1-fe1934ede397")
+		)
+		(pin "4"
+			(uuid "d13a74ec-2c8b-47cd-bc3f-af901b6b092e")
+		)
+		(pin "1"
+			(uuid "39eaaa40-9c82-4185-aeba-4152a28e9ab8")
+		)
+		(pin "2"
+			(uuid "98c2c327-48b8-4c49-b1a7-3f57765f99fb")
+		)
+		(instances
+			(project "ESPHome_SHT4X"
+				(path "/1788c1f0-51a1-4bbb-9bc1-fa75d9c8d3aa"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -4710,7 +5335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 140.97 0)
+		(at 17.78 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4718,10 +5343,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8a0658b-357c-4127-846e-bde8a3cb2039")
 		(property "Reference" "#PWR030"
-			(at 29.21 147.32 0)
+			(at 17.78 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4732,7 +5356,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 146.05 0)
+			(at 17.78 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4742,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 140.97 0)
+			(at 17.78 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +5377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 140.97 0)
+			(at 17.78 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +5388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 140.97 0)
+			(at 17.78 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +5412,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 71.12 58.42 270)
+		(at 73.66 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4799,7 +5423,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba5af33f-40d0-497e-aba6-b3301ec89139")
 		(property "Reference" "C12"
-			(at 70.993 52.07 90)
+			(at 73.533 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4809,7 +5433,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 70.993 54.61 90)
+			(at 73.533 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4819,7 +5443,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 71.12 58.42 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 58.42 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4841,7 +5465,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 71.12 58.42 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5106,7 +5730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 100.33 41.91 0)
+		(at 102.87 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5117,7 +5741,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd56aef0-ce1e-4614-8550-09a39dd78571")
 		(property "Reference" "R9"
-			(at 102.87 40.6399 0)
+			(at 105.41 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5128,7 +5752,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.87 43.1799 0)
+			(at 105.41 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5139,7 +5763,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 100.33 41.91 0)
+			(at 102.87 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 41.91 0)
+			(at 102.87 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5785,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 100.33 41.91 0)
+			(at 102.87 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5266,7 +5890,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 62.23 0)
+		(at 102.87 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5277,7 +5901,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8dcea4b-efeb-4e33-aaca-f8cadfccf56e")
 		(property "Reference" "#PWR024"
-			(at 100.33 68.58 0)
+			(at 102.87 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 67.31 0)
+			(at 102.87 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5298,7 +5922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 62.23 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 62.23 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,7 +5944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 62.23 0)
+			(at 102.87 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
