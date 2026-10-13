@@ -2847,7 +2847,7 @@
 			)
 		)
 	)
-	(global_label "IO18"
+	(global_label "*CE"
 		(shape input)
 		(at 198.12 119.38 180)
 		(fields_autoplaced yes)
@@ -2859,7 +2859,7 @@
 		)
 		(uuid "91d65768-d5a0-493a-a899-3c97caccfafd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7805 119.38 0)
+			(at 191.7482 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +2943,7 @@
 			)
 		)
 	)
-	(global_label "IO18"
+	(global_label "*CE"
 		(shape input)
 		(at 167.64 87.63 0)
 		(fields_autoplaced yes)
@@ -2955,7 +2955,7 @@
 		)
 		(uuid "a29d8ab0-b56d-4389-8d82-acbd1104490a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9795 87.63 0)
+			(at 174.0118 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
